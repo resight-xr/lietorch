@@ -1,0 +1,14 @@
+[project]
+name = "lietorch"
+version = "0.2"
+description = "Lie Groups for PyTorch"
+dependencies = [
+    "numpy",
+    "scipy",
+    "torch",
+    "torchvision",
+]
+
+[build-system]
+requires = ["setuptools>=42", "wheel", "torch", "numpy", "scipy"]
+build-backend = "setuptools.build_meta"
