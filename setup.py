@@ -38,7 +38,7 @@ setup(
                     # "-gencode=arch=compute_75,code=sm_75",  # Turing: RTX 2080, etc.
                     "-gencode=arch=compute_80,code=sm_80",  # Ampere: A100, RTX 3090, etc.
                     "-gencode=arch=compute_86,code=sm_86",  # Ampere: RTX 3050, 3060, etc.
-                    # "-gencode=arch=compute_89,code=sm_89",  # Hopper: H100
+                    "-gencode=arch=compute_89,code=sm_89",  # Hopper: H100
                     # "-gencode=arch=compute_89,code=compute_89",  # PTX for future compatibility
                 ],
             },
@@ -62,7 +62,7 @@ setup(
                     # "-gencode=arch=compute_75,code=sm_75",  # Turing: RTX 2080, etc.
                     "-gencode=arch=compute_80,code=sm_80",  # Ampere: A100, RTX 3090, etc.
                     "-gencode=arch=compute_86,code=sm_86",  # Ampere: RTX 3050, 3060, etc.
-                    # "-gencode=arch=compute_89,code=sm_89",  # Hopper: H100
+                    "-gencode=arch=compute_89,code=sm_89",  # Hopper: H100
                     # "-gencode=arch=compute_89,code=compute_89",  # PTX for future compatibility
                 ],
             },
